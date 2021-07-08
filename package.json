@@ -1,0 +1,23 @@
+{
+    "name": "crypto-wallet",
+    "version": "0.0.1",
+    "description": "Cryptocurrency Wallet App",
+    "main": "src/server/index.ts",
+    "scripts": {
+        "start": "rm -rf dist/ && tsc && node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oscarvadillog/crypto-wallet.git"
+    },
+    "author": "Oscar Vadillo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/oscarvadillog/crypto-wallet/issues"
+    },
+    "homepage": "https://github.com/oscarvadillog/crypto-wallet#readme",
+    "devDependencies": {
+        "typescript": "^4.3.5"
+    }
+}
