@@ -19,5 +19,8 @@
     "homepage": "https://github.com/oscarvadillog/crypto-wallet#readme",
     "devDependencies": {
         "typescript": "^4.3.5"
+    },
+    "dependencies": {
+        "ccxt": "^1.52.72"
     }
 }
